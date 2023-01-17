@@ -1,0 +1,387 @@
+/* --- start of CSS reset --- */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+a img {
+    border: none;
+}
+
+button,
+a {
+    cursor: pointer;
+    color: inherit;
+}
+
+textarea {
+    resize: none;
+}
+
+button,
+textarea,
+select {
+    appearance: none !important;
+    border-radius: 0;
+}
+
+/* --- end of CSS reset --- */
+
+#root {
+    background-color: black;
+    width: 100%;
+    min-width: 1322px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 40px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1050px;
+    height: 600px;
+    background-color: white;
+}
+
+/* --- start of page1 --- */
+.page1 {
+    display: block;
+    background-color: rgb(255, 0, 31);
+}
+
+.p1-background {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    mix-blend-mode: darken;
+    filter: brightness(120%);
+    filter: contrast(80%);
+}
+
+.p1-logo {
+    position: relative;
+    height: 15rem;
+    left: 180px;
+    bottom: 500px;
+    filter: drop-shadow(0px 0px 12px black);
+}
+
+/* --- end of page1 --- */
+
+/* --- start of page2 --- */
+
+.page2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.p2-left {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+    padding: 70px 60px 0 60px;
+}
+
+.p2-text-field {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 80%;
+    color: red;
+}
+
+h3 {
+    display: flex;
+    font-size: 10px;
+    font-weight: 300;
+    color: rgb(106, 106, 106);
+    text-align: justify;
+    padding-top: 100px;
+}
+
+.p2-imgs-field {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.p2-imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    width: 100%;
+    height: 115px;
+}
+
+.img-small-all {
+    border: solid white 2px;
+    filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.553)) contrast(80%) brightness(120%);
+    border-radius: 14px;
+}
+
+.img-small1 {
+    background: white url(https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i1YrCrurpLKY/v2/1200x-1.jpg) no-repeat center center;
+    background-size: 150%;
+}
+
+.img-small2 {
+    background: white url(https://images.squarespace-cdn.com/content/v1/5a8290b1fe54ef0d6de2a046/1526803726758-KQEOQAF1W7EWKOL6K6K7/Magic_wood_grit_de_luxe.jpg?format=1500w) no-repeat center center;
+    background-size: 160%;
+}
+
+.img-small3 {
+    background: white url(https://media.timeout.com/images/102639036/image.jpg) no-repeat center center;
+    background-size: 150%;
+}
+
+.p2-right {
+    height: 100%;
+    width: 100%;
+}
+
+.img-side {
+    height: 100%;
+    width: 100%;
+    background: white url(IMG/vlcsnap-2022-09-24-00h26m44s182.png) no-repeat bottom right;
+    background-size: 210%;
+    filter: contrast(80%);
+}
+
+/* --- end of page2 --- */
+
+/* --- start of page3 --- */
+
+.page3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.p3-left {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+    padding: 70px 60px 70px 60px;
+}
+
+.p3-text-field {
+    display: flex;
+    flex-direction: column;
+    border-bottom: rgba(255, 0, 0, 0.268) solid 0.7px;
+}
+
+h4 {
+    display: flex;
+    font-size: 10px;
+    font-weight: 300;
+    color: rgb(106, 106, 106);
+    text-align: justify;
+    padding-top: 55px;
+}
+
+.p3-imgs-field {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.p3-imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    width: 100%;
+    align-items: start;
+}
+
+.img-stamp-all {
+    filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.553)) contrast(80%) brightness(120%);
+    border-radius: 14px;
+    height: 70px;
+}
+
+.img-stamp1 {
+    background: white url(https://t4.ftcdn.net/jpg/04/18/37/17/360_F_418371707_EwArr4rCjaQ78PZddo41PrE4TF44rPAv.jpg) no-repeat center center;
+    background-size: contain;
+}
+
+.img-stamp2 {
+    background: white url(https://t4.ftcdn.net/jpg/04/18/37/17/360_F_418371707_EwArr4rCjaQ78PZddo41PrE4TF44rPAv.jpg) no-repeat center center;
+    background-size: contain;
+}
+
+.img-stamp3 {
+    background: white url(https://t4.ftcdn.net/jpg/04/18/37/17/360_F_418371707_EwArr4rCjaQ78PZddo41PrE4TF44rPAv.jpg) no-repeat center center;
+    background-size: contain;
+}
+
+.img-stamp4 {
+    background: white url(https://t4.ftcdn.net/jpg/04/18/37/17/360_F_418371707_EwArr4rCjaQ78PZddo41PrE4TF44rPAv.jpg) no-repeat center center;
+    background-size: contain;
+}
+
+.img-stamp5 {
+    background: white url(https://t4.ftcdn.net/jpg/04/18/37/17/360_F_418371707_EwArr4rCjaQ78PZddo41PrE4TF44rPAv.jpg) no-repeat center center;
+    background-size: contain;
+}
+
+.img-stamp6 {
+    background: white url(https://t4.ftcdn.net/jpg/04/18/37/17/360_F_418371707_EwArr4rCjaQ78PZddo41PrE4TF44rPAv.jpg) no-repeat center center;
+    background-size: contain;
+}
+
+.p3-img-text {
+    padding-left: 55px;
+    height: 100%;
+    align-content: center;
+    display: grid;
+}
+
+h5 {
+    font-size: 14px;
+    color: red;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 250%;
+}
+
+.p3-right {
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 2px;
+    height: 100%;
+    width: 100%;
+}
+
+.img-p3-1 {
+    grid-column: 1/11;
+    grid-row: 1;
+    background: black url(https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?cs=srgb&dl=pexels-sagui-andrea-618833.jpg&fm=jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.img-p3-2 {
+    grid-column: 11/21;
+    grid-row: 1;
+    background: black url(https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?cs=srgb&dl=pexels-sagui-andrea-618833.jpg&fm=jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.img-p3-3 {
+    grid-column: 21/31;
+    grid-row: 1;
+    background: black url(https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?cs=srgb&dl=pexels-sagui-andrea-618833.jpg&fm=jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.img-p3-4 {
+    grid-column: 1/13;
+    grid-row: 2;
+    background: black url(https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?cs=srgb&dl=pexels-sagui-andrea-618833.jpg&fm=jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.img-p3-5 {
+    grid-column: 13/19;
+    grid-row: 2;
+    background: black url(https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?cs=srgb&dl=pexels-sagui-andrea-618833.jpg&fm=jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.img-p3-6 {
+    grid-column: 19/31;
+    grid-row: 2;
+    background: black url(https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?cs=srgb&dl=pexels-sagui-andrea-618833.jpg&fm=jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.img-p3-7 {
+    grid-column: 1/11;
+    grid-row: 3;
+    background: black url(https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?cs=srgb&dl=pexels-sagui-andrea-618833.jpg&fm=jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.img-p3-8 {
+    grid-column: 11/23;
+    grid-row: 3;
+    background: black url(https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?cs=srgb&dl=pexels-sagui-andrea-618833.jpg&fm=jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.img-p3-9 {
+    grid-column: 23/31;
+    grid-row: 3;
+    background: black url(https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?cs=srgb&dl=pexels-sagui-andrea-618833.jpg&fm=jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.img-p3-10 {
+    grid-column: 1/10;
+    grid-row: 4;
+    background: black url(https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?cs=srgb&dl=pexels-sagui-andrea-618833.jpg&fm=jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.img-p3-11 {
+    grid-column: 10/20;
+    grid-row: 4;
+    background: black url(https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?cs=srgb&dl=pexels-sagui-andrea-618833.jpg&fm=jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.img-p3-12 {
+    grid-column: 20/31;
+    grid-row: 4;
+    background: black url(https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?cs=srgb&dl=pexels-sagui-andrea-618833.jpg&fm=jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
+
+
+
+/* --- end of page3 --- */
